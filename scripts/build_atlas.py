@@ -97,7 +97,11 @@ def main() -> None:
             x, y = number(row, field), number(row, "Diffusive_CH4_Flux_Mean")
             if x is not None and y is not None and y > 0 and x >= 0 if field != "Latitude" else x is not None and y is not None and y > 0:
                 pairs.append((transform(x), math.log(y)))
-        correlations.append({"driver": field, "n": len(pairs), "pearson_r": pearson([p[0] for p in pairs], [p[1] for p in pairs])})
+        correlations.append({
+            "driver": field,
+            "n": len(pairs),
+            "pearson_r": f"{pearson([p[0] for p in pairs], [p[1] for p in pairs]):.6f}",
+        })
 
     summary = {
         "records": len(rows),
