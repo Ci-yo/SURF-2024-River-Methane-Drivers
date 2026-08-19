@@ -1,0 +1,9 @@
+{
+  "records": 1113,
+  "unique_sites": 467,
+  "positive_flux_records": 1049,
+  "analysis_records_after_5_95_filter": 943,
+  "positive_flux_p05": 0.03844024979999999,
+  "positive_flux_p95": 51.72062189199997,
+  "note": "Correlations are descriptive and pairwise; they are not causal estimates."
+}

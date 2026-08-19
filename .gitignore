@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+.Rproj.user/
+*.RDS
+*.rds
+*.xlsx
+*.docx
+*.pdf
+*_cache/
+*_files/

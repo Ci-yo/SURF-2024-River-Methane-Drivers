@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this project layer, cite the repository and the upstream GRiMeDB sources listed in DATA.md."
+title: "SURF 2024: River Methane Drivers"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Xiyao
+year: 2024
+license: MIT
