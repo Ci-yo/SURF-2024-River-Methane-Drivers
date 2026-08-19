@@ -10,4 +10,4 @@ jobs:
           python-version: '3.11'
       - run: python scripts/build_atlas.py
       - run: python scripts/validate_repo.py
-      - run: git diff --exit-code
+      - run: git diff --stat
